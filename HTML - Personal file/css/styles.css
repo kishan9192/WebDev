@@ -1,0 +1,66 @@
+/*Earlier in hr tag under style we had border-style set to 
+none, and border background set to white.  Everything inside a webpage is inside a block
+therefore when we set the style to none and bg to white, we need to give
+height to that box, coz it becomes 0px by*/
+
+/***************************************TAG SELECTOR**********************************************/
+
+body {
+    background-color: beige;
+}
+hr {
+   
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width : 10px;
+    width: 6%;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color : #66BFBF;
+}
+
+h2 {
+    color: #11BFBF;
+}
+
+img:hover {
+    background-color: black;
+    /*border-radius: 100%;*/    
+}
+/* Class and ID selectors are more specific, and overwrite tag selectors*/
+/* Class selector is applied to a group of elements in a webpage, that have to have same style. Eg: Comments in a blog website*/
+/* ID is unique for an element. No two elements can have same ID*/
+
+/* Any element can have more than one class, separated by a space, whereas an element can have just one ID*/
+/* Example for having multiple classes <img class = "big round" src = "adfadgasg" alt = "agasgasg"> */
+/* In the above example image has 2 classes, big and round, but we can't write the same way for ID's.
+
+
+/* PSEUDO CLASSES  (google) */
+/* classes that start with : are called pseudo classes. Example :hover, :active etc. More could be found on MDN webdocs*/
+
+/******************************************CLASS SELECTOR*****************************************/
+.tree {
+    background-color: gold;
+}
+
+.ticket{
+    background-color: #11BFBF;
+}
+
+
+
+
+
+
+/*********************************************ID SELECTOR********************************************/
+/* h1 heading's id is "heading"*/
+#heading {
+    color: orange;
+}
